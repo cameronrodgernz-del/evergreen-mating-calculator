@@ -9,9 +9,12 @@ expected price, racing score and family news as at the eve of the sale, a shortl
 The fillies tab (#fillies) scores every filly and mare racing in NZ or Australia as a broodmare prospect.
 The farm analytics tab (#farm) breaks down each NZB vendor's yearling draft since 2016: where its value came from and
 where it leaked, price in the ring, book placement, foaling dates, the broodmare band and who buys.
+The race ratings tab (#ratings) rates every NZ and Australian run since January 2023 on a TopRate-style scale, with
+search by horse, meetings by day and the top-rated horses now.
 
-The site is one static page (`index.html`) with all its data inside. There is nothing to build: Vercel serves the
-file as it is. The page is rebuilt from the analysis scripts and pushed here; edit the scripts, not this file.
+The site is one static page (`index.html`) with all its data inside, except the race ratings, which are too big for the
+page and sit in `ratings/` beside it (fetched when that tab opens). There is nothing to build: Vercel serves the files
+as they are. The page is rebuilt from the analysis scripts and pushed here; edit the scripts, not these files.
 
 Keep Vercel Authentication on for all deployments. The page holds Evergreen's analysis and data drawn from NZB,
-Inglis, Magic Millions, Gavelhouse and TTR AusNZ, whose terms limit use outside Evergreen.
+Inglis, Magic Millions, Gavelhouse, TTR AusNZ, TAB race results and Betfair, whose terms limit use outside Evergreen.
