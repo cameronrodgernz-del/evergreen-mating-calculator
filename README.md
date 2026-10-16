@@ -10,7 +10,7 @@ The fillies tab (#fillies) scores every filly and mare racing in NZ or Australia
 from the race ratings tab.
 The farm analytics tab (#farm) breaks down each NZB vendor's yearling draft since 2016: where its value came from and
 where it leaked, price in the ring, book placement, foaling dates, the broodmare band and who buys.
-The race ratings tab (#ratings) rates every NZ and Australian run since January 2023 on a TopRate-style scale, with
+The race ratings tab (#ratings) rates every NZ run since January 2021 and Australian run since January 2023 on a TopRate-style scale, with
 search by horse, meetings by day and the top-rated horses now.
 
 The site is one static page (`index.html`) with all its data inside, except the race ratings, which are too big for the
